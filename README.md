@@ -10,6 +10,6 @@
 <br/>
 
 
-![project img](https://github.com/ManiMaran001/AllServiceHocare/blob/main/Screeshot/homepage.jpg?raw=true)
-![stack Overflow](https://github.com/ManiMaran001/AllServiceHocare/blob/main/Screeshot/mainhome.jpg?raw=true)
-![stack Overflow](https://github.com/ManiMaran001/AllServiceHocare/blob/main/Screeshot/service.jpg?raw=true)
+![project img](https://github.com/ManiMaran001/pluralsightClone/blob/main/screenShot/screen1.jpg?raw=true)
+![stack Overflow](https://github.com/ManiMaran001/pluralsightClone/blob/main/screenShot/screen2.jpg?raw=true)
+
