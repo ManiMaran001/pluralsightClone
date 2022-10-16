@@ -1,0 +1,14 @@
+{
+  "name": "pluralsightscss",
+  "version": "1.0.0",
+  "description": "elearn website",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "ManiMaran001",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

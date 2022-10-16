@@ -1,0 +1,53 @@
+.course-box {
+    width: 100%;
+    padding: 6rem;
+    padding-left: 9rem;
+    border-radius: 4px;
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    border: 1px dashed $color-grey-dark;
+    transform: skewX(-12deg);
+    @include respond(tab-port){
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
+    @include respond(phone){
+        transform: skewX(0deg);
+    }
+
+
+    &__shape {
+        width: 18rem;
+        height: 18rem;
+        clip-path: circle(50% at 50% 50%);
+        float: left;
+        transform: translateX(-3rem) skewX(12deg);
+        @include respond(phone){
+            transform: translateX(-3rem) skewX(0deg);
+        }
+    }
+
+    &__text {
+
+        transform: skewX(12deg);
+        @include respond(phone){
+            transform: skewX(0deg);
+        }
+        &-f1 {
+            font-size: 3rem;
+            @include ShowClip;
+        }
+
+        &-span {
+            @include ShowClip;
+            display: inline-block;
+            margin: 0 1rem;
+        }
+
+    }
+
+    &__img {
+        height: 100%;
+        transform: translateX(-4rem) scale(1.4);
+    }
+}

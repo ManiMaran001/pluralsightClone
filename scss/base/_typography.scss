@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: $color-grey-dark;
+}
+.heading-primary{
+    color: $color-white;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    &--main{
+        font-size: 6rem;
+        font-weight: 300;
+        letter-spacing: 20px;
+        display: block;
+        animation-name: moveinLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    &--sub{
+        font-size: 3rem;
+        font-weight: 300;
+        display: block;
+        letter-spacing: 14px;
+        animation-name: moveinRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+}
+.heading-secondary{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5rem;
+    background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color:transparent;    
+    transition: all .3s;
+
+    &:hover{
+        transform: skewX(15deg) skewY(2deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color-black,.2);
+    }
+}
+.heading-tertiary{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.heading-infomatry{
+    font-size: 2rem;
+    font-weight: 700;
+    &:hover{
+      @include ShowClip;
+    }
+}
+.paragraph{
+    font-size: $default-font-size;
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
